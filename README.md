@@ -25,7 +25,9 @@ Check whether the string input is negative or not by using the machine-learning 
  9. Store result (result.txt)
 
 ## Evaluation
-`make => ./trainer => gcc predictor.c -o p => ./p`
+~~~
+make => ./trainer => gcc predictor.c -o p => ./p
+~~~
 * Through these results, it can be confirmed that the precision and recall change according to the thresh value of the trainer's vocabulary reduction.
 * When the classification threshold is decreased, the precision value increases and the recall value decreases.
 * When the classification threshold is increased, the precision value decreases and the recall value increases.
