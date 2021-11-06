@@ -25,5 +25,7 @@ Check whether the string input is negative or not by using the machine-learning 
  9. Store result (result.txt)
 
 ### 3. Evaluation
-''' make => ./trainer => gcc predictor.c -o p => ./p '''
+''' C
+make => ./trainer => gcc predictor.c -o p => ./p
+'''
  
