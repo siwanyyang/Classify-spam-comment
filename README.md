@@ -1,4 +1,4 @@
-# Classify-twitter-spam-comment
+# Classify-spam-comment
 Distinguish spam messages by using Naive Bayes Classifiers (Discrete Mathmatics)
 ## Description
 Check whether the string input is negative or not by using the machine-learning data.
