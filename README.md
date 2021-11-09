@@ -38,5 +38,5 @@ make => ./trainer => gcc predictor.c -o p => ./p
 1. If the value of the newly given feature type does not exist in the previously learned feature, the probability is 0, and multiplying it will result in a final probability of 0. So, I use Laplace smoothing for all probability.
 2. Since the probability derived using the classifier is less than 1, if there is a lot of probability to multiply, the value continues down, and the value comes out so small that it is difficult to distinguish. So, by taking logs on all the probabilities, I prevented underflow.
 ----
-If you have any questions, send me e-mail #### swy12190@gmail.com
+If you have any questions, send me e-mail swy12190@gmail.com
  
